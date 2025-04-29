@@ -6,7 +6,7 @@
     <h2>{{$job->title}}</h2>
 
     <p>
-        This job pays {{ $job->salary }} per year!
+        This job pays &euro;{{ $job->salary }} per year!
     </p>
 
     <p class="mt-6">

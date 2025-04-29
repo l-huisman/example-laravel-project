@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb6881c-7236-4aa6-8c1d-8ef5b7b38042" name="Changes" comment="Add job creation validation and error handling">
-      <change afterPath="$PROJECT_DIR$/resources/views/jobs/edit.blade.php" afterDir="false" />
+    <list default="true" id="5cb6881c-7236-4aa6-8c1d-8ef5b7b38042" name="Changes" comment="Job editing, updating and deleting.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/components/button.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/button.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/jobs/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/jobs/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/jobs/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/jobs/show.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -240,7 +239,7 @@
       <workItem from="1745570295280" duration="1272000" />
       <workItem from="1745662024331" duration="1225000" />
       <workItem from="1745667665896" duration="1351000" />
-      <workItem from="1745909773059" duration="4234000" />
+      <workItem from="1745909773059" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="Handled CSRF (Cross-site request forgery)">
       <option name="closed" value="true" />
@@ -258,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1745912607399</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Job editing, updating and deleting.">
+      <option name="closed" value="true" />
+      <created>1745914189069</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1745914189069</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -268,6 +275,7 @@
     <MESSAGE value="Add job creation functionality and" />
     <MESSAGE value="Handled CSRF (Cross-site request forgery)" />
     <MESSAGE value="Add job creation validation and error handling" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add job creation validation and error handling" />
+    <MESSAGE value="Job editing, updating and deleting." />
+    <option name="LAST_COMMIT_MESSAGE" value="Job editing, updating and deleting." />
   </component>
 </project>
