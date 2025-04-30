@@ -12,14 +12,14 @@
                     <x-form-field>
                         <x-form-label for="email">Email</x-form-label>
                         <div class="mt-2">
-                            <x-form-input name="email" id="email" placeholder="johndoe@example.com" required/>
+                            <x-form-input name="email" id="email" type="email" placeholder="johndoe@example.com" :value="old('email')" required/>
                             <x-form-error name="email"/>
                         </div>
                     </x-form-field>
                     <x-form-field>
                         <x-form-label for="password">Password</x-form-label>
                         <div class="mt-2">
-                            <x-form-input name="password" id="password" placeholder="**********" required/>
+                            <x-form-input name="password" id="password" type="password" placeholder="**********" required/>
                             <x-form-error name="password"/>
                         </div>
                     </x-form-field>

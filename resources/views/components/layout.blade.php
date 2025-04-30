@@ -32,6 +32,12 @@
                             <x-nav-link href="/login" :active="request()->is('login')">Login</x-nav-link>
                             <x-nav-link href="/register" :active="request()->is('register')">Register</x-nav-link>
                         @endguest
+                        @auth()
+                                <form method="POST" action="/logout" >
+                                    @csrf
+                                    <x-form-button>Logout</x-form-button>
+                                </form>
+                        @endauth
                     </div>
                 </div>
                 <div class="-mr-2 flex md:hidden">
@@ -98,7 +104,7 @@
         <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8 sm:flex sm:justify-between">
             <h1 class="text-3xl font-bold tracking-tight text-gray-900">{{ $heading }}</h1>
             @auth()
-            <x-button href="/jobs/create">Create Job</x-button>
+                <x-button href="/jobs/create">Create Job</x-button>
             @endauth
         </div>
     </header>
