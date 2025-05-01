@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5cb6881c-7236-4aa6-8c1d-8ef5b7b38042" name="Changes" comment="Add job posting email notification functionality">
+    <list default="true" id="5cb6881c-7236-4aa6-8c1d-8ef5b7b38042" name="Changes" comment="Use queue for job posting emails and add TranslateJob">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/JobController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/JobController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/components/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/components/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +243,7 @@
       <workItem from="1745667665896" duration="1351000" />
       <workItem from="1745909773059" duration="6004000" />
       <workItem from="1745996644307" duration="8716000" />
-      <workItem from="1746084941699" duration="814000" />
+      <workItem from="1746084941699" duration="1785000" />
     </task>
     <task id="LOCAL-00001" summary="Handled CSRF (Cross-site request forgery)">
       <option name="closed" value="true" />
@@ -306,7 +309,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746084694584</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Use queue for job posting emails and add TranslateJob">
+      <option name="closed" value="true" />
+      <created>1746085916144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1746085916144</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,6 +334,8 @@
     <MESSAGE value="Add authentication controllers, views, and routes" />
     <MESSAGE value="Add authorization for editing jobs" />
     <MESSAGE value="Add job posting email notification functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add job posting email notification functionality" />
+    <MESSAGE value="Add TranslateJob and update job posting email dispatch" />
+    <MESSAGE value="Use queue for job posting emails and add TranslateJob" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use queue for job posting emails and add TranslateJob" />
   </component>
 </project>
